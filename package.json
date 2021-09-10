@@ -1,0 +1,29 @@
+{
+  "name": "challenge3",
+  "version": "1.0.0",
+  "description": "Тест-задание по собеседованию",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itechnocrat/challenge3.git"
+  },
+  "keywords": [
+    "challenge"
+  ],
+  "author": "co",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itechnocrat/challenge3/issues"
+  },
+  "homepage": "https://github.com/itechnocrat/challenge3#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "2.4.0",
+    "standard": "^16.0.3",
+    "undefined": "0.1.0"
+  }
+}
