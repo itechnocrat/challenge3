@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+table th, table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #c5d5e5;
+}
+table {
+    margin-right: 8%;
+    padding-bottom: 100px;
+    width: 50%;
+    table-layout:fixed;
+}
+.td-dotted {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

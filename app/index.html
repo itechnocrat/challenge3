@@ -5,25 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Challenge</title>
+    <link rel="stylesheet" href="../include/main.css">
+<!--    <link rel="stylesheet" href="/include/bootstrap.css">-->
   </head>
   <body>
-    <table>
+  <div class="container flex">
+
+    <table class="table">
+      <col id=0>
+      <col id=1>
+      <col class="td-dotted" id=2>
+      <col id=3>
+
       <caption>
         Table
       </caption>
-      <tr>
-        <th>Имя</th>
+      <tr class="table-header">
+        <th>Azat</th>
         <th>Фамилия</th>
         <th>Описание</th>
         <th>Цвет глаз</th>
       </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
+
     </table>
-    <script src="index.js"></script>
+    <div class="blue">я Див после таблицы</div>
+  </div>
+
+    <script type=module src="index.js"></script>
   </body>
 </html>
